@@ -7,34 +7,57 @@
         body {
             text-align: center;
             font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
         }
         
         h1 {
             color: #FF0000;
         }
         
-        img {
-            max-width: 500px;
+        #header {
+            background-color: #e6e6e6;
+            padding: 20px;
+        }
+        
+        #content {
+            margin-top: 50px;
+        }
+        
+        #photos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+        #photos img {
+            max-width: 300px;
             border-radius: 10px;
-            margin: 20px;
+            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>¡Feliz Cumpleaños!</h1>
+    <div id="header">
+        <h1>¡Feliz Cumpleaños!</h1>
+    </div>
     
-    <p>Querida [nombre de tu novia],</p>
-    
-    <p>Quiero desearte un día lleno de alegría y amor en tu cumpleaños. Eres una persona especial en mi vida y estoy muy agradecido/a de tenerte a mi lado. Aquí hay algunas fotos y recuerdos especiales que quería compartir contigo:</p>
-    
-    <img src="ruta_de_tu_imagen1.jpg" alt="Imagen 1">
-    <img src="ruta_de_tu_imagen2.jpg" alt="Imagen 2">
-    
-    <p>Espero que este día sea tan maravilloso como tú lo mereces. ¡Te amo mucho!</p>
-    
-    <p>Con todo mi cariño,</p>
-    
-    <p>[Tu nombre]</p>
+    <div id="content">
+        <h2>Querida [nombre de tu novia],</h2>
+        
+        <p>Quiero desearte un día lleno de alegría y amor en tu cumpleaños. Eres una persona especial en mi vida y estoy muy agradecido/a de tenerte a mi lado. Aquí hay algunas fotos y recuerdos especiales que quería compartir contigo:</p>
+        
+        <div id="photos">
+            <img src="ruta_de_tu_imagen1.jpg" alt="Imagen 1">
+            <img src="ruta_de_tu_imagen2.jpg" alt="Imagen 2">
+        </div>
+        
+        <p>Espero que este día sea tan maravilloso como tú lo mereces. ¡Te amo mucho!</p>
+        
+        <p>Con todo mi cariño,</p>
+        
+        <p>[Tu nombre]</p>
+    </div>
 </body>
 </html>
-
