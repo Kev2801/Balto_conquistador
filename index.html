@@ -1,105 +1,130 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Feliz Dia Mi Amor</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: #f4f4f4;
-        }
-
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 2.5em;
-            color: #333;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 20px;
-            width: 80%;
-            margin: 0 auto;
-        }
-
-        .grid-item {
-            text-align: center;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .grid-item h2 {
-            font-size: 1.5em;
-            color: #555;
-            margin-bottom: 15px;
-        }
-
-        .grid-item img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-    </style>
+    /* Reset de estilos para el body */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    /* Estilos generales para los encabezados */
+    h1, h2, h3 {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+    h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+        
+    h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+        
+    h3 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+        
+    /* Estilos para la sección de inicio */
+    #inicio {
+      padding: 40px;
+      background-color: #BCE5F5;
+      text-align: center;
+    }
+    #inicio img {
+      width: 150 /* Cambiar el ancho de la imagen según tu preferencia */
+      height: 150 /* Cambiar la altura de la imagen según tu preferencia */
+      border-radius: 50 /* Opcional: agregar bordes redondeados a la imagen */
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    /* Estilos para la sección de habilidades */
+    #detallitos {
+      padding: 40px;
+      background-color: #B2BABB;
+    }
+    /* Estilos para la lista de habilidades */
+    #detallitos ul {
+      list-style-type: none;
+      text-align: right;
+    }
+    /* Estilos para la sección de proyectos */
+    #detalle {
+      padding: 40px;
+      background-color: #73C6B6;
+    }
+    /* Estilos para la lista de proyectos */
+    #detalle ul {
+      list-style-type: none;
+      text-align: right;
+    }
+    /* Estilos para la sección de contacto */
+    #luchadora {
+      padding: 50px;
+      background-color: #B2BABB;
+    }
+    /* Estilos para la lista de contacto */
+    #luchadora ul {
+      list-style-type: none;
+      text-align: right;
+    }
+    /* Estilos generales para los párrafos y listas */
+    p, ul {
+      font-family: Arial, sans-serif;
+      font-size: 22px;
+      color: #333;
+    }
+    p {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    /* Estilos para los elementos de lista */
+    li {
+      display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+      margin-right: 10px; /* Espaciado entre los elementos de lista */
+    }
+  </style>
+<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    
+<section id="inicio">
+<h1>¡Feliz Cumpleaños Mi Queria Esposa!</h1>
+<img src="https://i.pinimg.com/564x/3f/75/dd/3f75dd965cc2f40163756266ed87ea85.jpg" alt="Imagen de cabecera">
+<h1>Britney Delhy Qqueso Rodriguez</h1>
+<p>Futura ingeniera de software. Una gran mujer, enamorada, novia, esposa y madre de nuestros hijos.</p>
+</section>
+<section id="detallitos">
+<h2>Feliz 22 Añitos</h2>
+<img src="https://i.pinimg.com/564x/1a/19/3a/1a193ae72390c8c9f7e9d66214b64a8f.jpg" alt="fotito">
+<p>El día de hoy cumples 22 añitos amor y me alegra mucho poder acompañarte este día tan especial para ti</p>
+</section>
+<section id="detalle">
+<h2>Ya Estas Viejita</h2>
+<img src="https://i.pinimg.com/564x/55/09/ba/5509bafbe3debddd442be2bf08d5a4e4.jpg" alt="fotito">
+<p>Estamos embejeciendo juntitos, uno al lado de otro, haciendo renegar pero siempre dandote mucho amor</p>
+<p>Estamos embejeciendo juntitos, uno al lado de otro, haciendote renegar pero siempre cuidandote y dandote mucho amor</p>
+</section>
 
-    <!-- Título principal centrado -->
-    <h1>Título Principal de la Página</h1>
-
-    <!-- Grid con 4 títulos y 4 imágenes en cada fila -->
-    <div class="grid">
-        <!-- Primera fila -->
-        <div class="grid-item">
-            <a href="pagina1.html"><h2>Título 1</h2></a>
-            <img src="https://91le.com.ar/wp-content/uploads/2021/03/Ventajas-termografia.jpeg" alt="Equipos para IR">
-        </div>
-        <div class="grid-item">
-            <a href="pagina2.html"><h2>Título 2</h2></a>
-            <img src="https://via.placeholder.com/200x150" alt="Imagen 2">
-        </div>
-        <div class="grid-item">
-            <a href="pagina3.html"><h2>Título 3</h2></a>
-            <img src="https://via.placeholder.com/200x150" alt="Imagen 3">
-        </div>
-        <div class="grid-item">
-            <a href="pagina4.html"><h2>Título 4</h2></a>
-            <img src="https://via.placeholder.com/200x150" alt="Imagen 4">
-        </div>
-
-        <!-- Segunda fila (sin links a nuevas páginas) -->
-        <div class="grid-item">
-            <h2>Título 5</h2>
-            <img src="https://via.placeholder.com/200x150" alt="Imagen 5">
-        </div>
-        <div class="grid-item">
-            <h2>Título 6</h2>
-            <img src="https://via.placeholder.com/200x150" alt="Imagen 6">
-        </div>
-        <div class="grid-item">
-            <h2>Título 7</h2>
-            <img src="https://via.placeholder.com/200x150" alt="Imagen 7">
-        </div>
-        <div class="grid-item">
-            <h2>Título 8</h2>
-            <img src="https://via.placeholder.com/200x150" alt="Imagen 8">
-        </div>
-    </div>
+<section id="luchadora">
+<h2>Siempre Estaré A Tu Lado</h2>
+<img src="https://i.pinimg.com/564x/5b/f6/0b/5bf60b43507cabe20fca13dbbb2b95a0.jpg" alt="fotito">
+<p>Hicimos muchos juramentos juntos y como te lo mencione una y otra ves, siempre estare a tu lado porque nos vamos a casar y vamos a tener un hermosa familia</p>
+<p>Hicimos muchos juramentos juntos y como te lo mencione una y otra ves, siempre estaré a tu lado porque nos vamos a casar y vamos a tener un hermosa familia</p>
+</section>
 
 </body>
 </html>
